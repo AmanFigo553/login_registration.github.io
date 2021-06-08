@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS AND TAGS</title>
+    <link rel="stylesheet" href="figo".css>
+</head>
+<body>
+    
+    <form action="http://127.0.0.1:5500/jack.html" target="_blank"> 
+
+<!-- labels should be given according to the id value of each chosen attribute -->
+<!-- label should also be mentioned before the div of each respective attribute -->
+<!-- if it is given below the div section then the label wont be read as such -->
+        <label for="my name"><b> Name:</b></label> 
+    <div>
+        
+        <input type="name" name="my name" id="my name">
+    </div>
+
+    <br>
+    <label for="date of birth"><b>Date:</b></label>
+    <div>
+       
+      <input type="date"name="date of birth" id="date of birth">
+    </div>
+
+    <br>
+    <label for="my email id"><b>Email id:</b></label>
+    <div>
+        <input type="email" name="my email id" id="my email id"> 
+    </div>
+
+    <br>
+    <label for="my phone number"><b>Phone no:</b> </label>
+    <div>
+        
+         <input type="number" name="my phone number" id="my phone number">
+    </div>
+
+    <br>
+
+<div>
+
+    <label for="department"><b>Department:</b> </label>
+
+      <select name="department" id="department">
+         <option value="MECH">MECHANICAL</option>
+         <option value="MME">METALLLURGY</option> 
+         <option value="EEE">ELECTRICAL AND ELECTRONICS</option>
+         <option value="ECE">ELECRONICS AND COMMUNICATIONS</option>
+         <option value="CSE">COMPUTER SCIENCE</option>
+         <option value="ICE">INSTRUMENATAION AND CONTROL</option>
+         <option value="PROD">PRODUCTION</option>
+         <option value="CHEM">CHEMICAL</option>
+         <option value="ARCH">ARCHIECTURE</option>
+        </select>
+        </div>
+    <br>
+
+    <div>   
+
+    <label for="Graduation year"><b>Graduation year:</b> </label>
+   
+      <select name="Graduation year" id="Graduation year">
+
+         <option value="21">2021</option>
+         <option value="22">2022</option> 
+         <option value="23">2023</option>
+         <option value="24">2024</option>
+        </select>
+
+    <br>
+
+    <label for="My age"><b>Age:</b></label>
+    <div>
+        
+        <input type="number"name="My age" id="My age">
+    </div>
+  
+    <br>
+
+    <input type="submit" value="Submit now">
+    <input type="reset" value="Reset now">
+
+             
+    
+    <script src="figo.js"></script>
+
+</body>
+</html>
